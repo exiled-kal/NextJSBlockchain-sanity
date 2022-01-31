@@ -44,9 +44,7 @@ const Header = ({
             </WalletAddress>
           </WalletLink>
         ) : (
-          <Button onClick={() => connectWallet("injected")}>
-            Connect Wallet
-          </Button>
+          <Button onClick={() => connectWallet("injected")}></Button>
         )}
         <Button style={{ backgroundColor: "#3773f5", color: "#000" }}>
           Buy / Sell
